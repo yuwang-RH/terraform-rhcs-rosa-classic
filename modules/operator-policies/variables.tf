@@ -26,3 +26,9 @@ variable "tags" {
   default     = null
   description = "List of AWS resource tags to apply."
 }
+
+variable "govcloud" {
+  type = bool
+  default = false
+  description = "Whether or not resources are to be used in a Govcloud environment."
+}
